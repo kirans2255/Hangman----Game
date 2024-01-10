@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #word-container {
+            margin-top: 50px;
+            font-size: 2em;
+        }
+
+        #letters {
+            margin-top: 30px;
+        }
+
+        #hint-container {
+            margin-top: 20px;
+            font-size: 1em;
+            color: #333;
+        }
+
+        .letter {
+            display: inline-block;
+            font-size: 1.5em;
+            margin: 5px;
+            cursor: pointer;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        div {
+            color: white;
+        }
+
+        #hint-container {
+            color: whitesmoke;
+        }
+
+        /* #reset-btn{
+            margin-top: 50px;
+            margin-left: -50px;
+            padding: 6px 15px;
+            font-size: 1em;
+            cursor: pointer;
+            color: black;
+            background-color: white;
+        } */
+
+        #next-btn {
+            margin-top: 50px;
+            /* margin-left: 100px; */
+            padding: 6px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            color: black;
+            background-color: white;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hangman Game</h1>
+    <div id="word-container"></div>
+    <div id="hint-container"></div>
+    <div id="letters"></div>
+    <button id="next-btn">Next</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
